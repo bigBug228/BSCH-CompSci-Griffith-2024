@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2922471295071897608}
   - component: {fileID: 3174469530470292095}
   - component: {fileID: 6091471012694264589}
+  - component: {fileID: 7361727357900849183}
   m_Layer: 0
   m_Name: BouncySphere
   m_TagString: Untagged
@@ -177,3 +178,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7361727357900849183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3400106886933576643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a148c168e3ea5df41948b4bba17e37a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testMat: {fileID: 0}
