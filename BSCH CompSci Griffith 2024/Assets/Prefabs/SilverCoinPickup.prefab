@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3832507360697845365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.493452
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1060985426965694990, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987054206510851019, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_Name
+      value: SilverCoinPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739356592690096291, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ef78639408c87574ebe9c7889a637ba4, type: 2}
+    - target: {fileID: 5168982673761873536, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_LayerOverridePriority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5730853420479571667, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -362325254, guid: c199221cd7045c54db1a2e23ca791305, type: 3}
+    - target: {fileID: 6267974549566544143, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: scoreValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267974549566544143, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: gameManager
+      value: 
+      objectReference: {fileID: 6437160348284451763, guid: 418b1dbd1342e0248a1cf718bd6283f5, type: 3}
+    - target: {fileID: 6267974549566544143, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
+      propertyPath: pickupEffect
+      value: 
+      objectReference: {fileID: 5460731762807399601, guid: c4c2176a57e95734687f9b7626b988e0, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e555cb416e12d9f46a77a82cd6e3f409, type: 3}
