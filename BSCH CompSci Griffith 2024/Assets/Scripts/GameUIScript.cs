@@ -18,6 +18,6 @@ public class GameUIScript : MonoBehaviour
     void Update()
     {
         scoreText.text = "Score: " + gameManager.playerScore;
-        healthText.text = "Health" + gameManager.playerHealth;
+        healthText.text = "Health:" + gameManager.playerHealth;
     }
 }

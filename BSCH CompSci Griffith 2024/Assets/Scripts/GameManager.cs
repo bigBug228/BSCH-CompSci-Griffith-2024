@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
     public Transform playerSpawnPoint;
     public float playerHealth;
     public float maxPlayerHealth;
@@ -11,7 +12,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
     }
     // Start is called before the first frame update
     void Start()
@@ -43,5 +53,15 @@ public class GameManager : MonoBehaviour
        // playerHealth = maxPlayerHealth;
         GameObject player = GameObject.FindWithTag("Player");
         player.transform.position = playerSpawnPoint.position;
+    }
+    public void DamagePlayer(float damage)
+    {
+        playerHealth -= damage;
+        if (playerHealth <= 0)
+        {
+            playerHealth = maxPlayerHealth;
+            RespawnPlayer();
+            
+        }
     }
 }
